@@ -89,7 +89,43 @@ nav {
     width: 100%;
     margin-top: 60px
 }
+.one{
+    background: #000;
+    width: 300px;
+    height: 100vh;
+    position: fixed;
+    left: -300px;
+    top: 0;
+    z-index: 9999;
 
+}
+.sho{
+    left: 0;
+}
+
+
+.one .ttow{
+    /* position: absolute;
+    right: -100px;
+    top: 50px; */
+    width: 100px;
+    height: 100px;
+    background: green;
+}
+.change{
+    top: -60px;
+    left: 0;
+    position: fixed;
+    background: #000;
+}
+.tow{
+    position: absolute;
+    left: 0px;
+    width: 50px;
+    height: 50px;
+    background: #744fa0;
+    top: 16px;
+}
 nav .logo {
     width: 18%;
 
@@ -998,6 +1034,20 @@ nav .nav-button a:hover {
 }
 
 /* get-part end */
+.backtotop{
+    padding: 20px;
+    background: #744fa0;
+    color: #fff;
+    position: fixed;
+    right: 0;
+    bottom:0 ;
+    border: 0;
+    display: none;
+
+}
+.backtotop i{
+    transform: rotate(-45deg);
+}
 /* fotter-part start */
 #fotter-part {
     margin-top: 60px;

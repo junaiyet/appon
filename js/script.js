@@ -1,3 +1,39 @@
+$(window).scroll(function(){
+
+  if($(window).scrollTop() > 500){
+    $(".menu").addClass("change")
+  }else{
+    $(".menu").removeClass("change")
+  }
+})
+$(window).scroll(function(){
+  if($(window).scrollTop() > 500){
+    $(".backtotop").fadeIn()
+  }else{
+    $(".backtotop").fadeOut()
+    
+
+  }
+})
+
+$(".backtotop").click(function(){
+  $("html,body").animate({
+    scrollTop:0,
+  })
+})
+$(".tow").click(function(){
+  $(".one").addClass("sho")
+
+})
+$(".ttow").click(function(){
+  $(".one").removeClass("sho")
+
+})
+
+// $(".tow").click(function(){
+//   $(".one").toggleClass("sho")
+// })
+
 // banner-part start
 $('.banner-slider').slick({
   dots: true,
